@@ -1,0 +1,51 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    background-color: darkturquoise;
+}        
+
+.game-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    height: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+#number {
+    color: black;
+}
+
+#checkButton {
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    color: black;
+    font-size: 18px;
+}
+
+#checkButton:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    background-color: lightblue;
+}

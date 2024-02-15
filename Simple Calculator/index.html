@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="shortcut icon" href="./images/calc.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main id="main-part">
+        <h1>Calculator</h1>
+        <p class="clue">Enter numbers in the appropriate fields</p>
+
+        <form>
+            <input type="number" id="first-operand" placeholder="First Number">
+            <input type="number" id="second-operand" placeholder="Second Number">
+        </form>
+
+        <p class="clue">Select the type of operation</p>
+
+        <section id="buttons">
+            <button id="plus-btn">+</button>
+            <button id="minus-btn">-</button>
+            <button id="divide-btn">/</button>
+            <button id="multiply-btn">*</button>
+        </section>
+
+        <section id="output-part">
+            <h1>Result</h1>
+            <p>Waiting for your action :D</p>
+        </section>
+    </main>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
